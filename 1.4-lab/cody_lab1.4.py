@@ -45,3 +45,5 @@ df.ix[15,]
 from sklearn.neighbors import KNeighborsClassifier
 
 knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X,y)
+knn.score(X,y)
